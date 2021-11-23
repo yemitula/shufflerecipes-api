@@ -40,7 +40,7 @@ db.mongoose
 // implements a simple route
 app.get('/', (req, res) => {
   res.json({
-    message: 'Welcome to our restful API.'
+    message: 'Welcome to our ShuffleRecipes API.'
   });
 });
 

@@ -4,7 +4,9 @@
   "description": "Password Protected Personal Recipes App (API)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon",
+    "test": "jest --config ./jest.config.json",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,9 @@
     "mongoose": "^6.0.13"
   },
   "devDependencies": {
+    "@jest-mock/express": "^1.4.5",
+    "jest": "^27.3.1",
+    "mockingoose": "^2.15.2",
     "nodemon": "^2.0.15"
   }
 }

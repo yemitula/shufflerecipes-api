@@ -4,7 +4,7 @@ This app provides a REST API for a simple password-protected recipies system.
 
 ## Setup
 
-Clone this repo. Then rename **config/auth.config.sample.js** and add your secret key.
+Clone this repo. Then rename **config/auth.config.sample.js** and add your ```SECRET_KEY```.
 
 Install dependencies by running
 
